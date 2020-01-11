@@ -1,0 +1,17 @@
+import javax.swing.JFrame;
+
+/**
+   This program allows the user to view the amount of daily calories they need
+ */
+
+public class CalorieCalculatorFormViewer 
+{	
+    public static void main(String[] args)
+    {
+       JFrame frame = new CalorieCalculatorFormFrame();
+       frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+       frame.setTitle("Calorie Calculator For Adult");
+       frame.setVisible(true);
+     }
+
+}
